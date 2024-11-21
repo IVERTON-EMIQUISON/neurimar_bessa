@@ -5,12 +5,13 @@ body {
     background-color: #f4f4f4;
     color: #333;
     line-height: 1.6;
+    overflow-x: hidden; /* Evita a barra de rolagem horizontal */
 }
 
 .container {
     display: flex;
     flex-wrap: wrap;
-    max-width: 1200px;
+    max-width: 100%; /* Ajusta para 100% da largura da tela */
     margin: 20px auto;
     background-color: #fff;
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
